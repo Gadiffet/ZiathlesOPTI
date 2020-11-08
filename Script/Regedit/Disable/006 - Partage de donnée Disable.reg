@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+; Désactiver les services NetBios
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBIOS]
+"Start"=dword:00000004

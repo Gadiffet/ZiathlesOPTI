@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Old network flyout
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\Settings\Network]
+"ReplaceVan"=dword:00000002

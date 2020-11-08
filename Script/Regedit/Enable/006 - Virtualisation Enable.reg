@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+; Désactiver les services Virtualisation
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NdisVirtualBus]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmgid]
+"Start"=dword:00000004

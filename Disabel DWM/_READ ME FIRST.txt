@@ -1,0 +1,51 @@
+------------------------------
+
+_READ ME FIRST.txt
+
+------------------------------
+
+__ONLY IF NOT USING ISO
+These tweaks are only needed if not using my custom ISO
+
+------------------------------
+
+1 Transfer files to directory's
+
+2 Open pskill.exe and pssuspend.exe in Windows folder once
+  Press ok to clear prompts for exe's
+  
+3 7zip a backup of C:\Windows\System32\dwm.exe
+  
+4 Copy C:\Windows\System32\dwm.exe
+  To
+  C:\Windows\System32\_dwm
+  
+  Copy C:\Windows\System32\rundll32.exe
+  To C:\Windows\System32\_dwmfake
+  
+  Rename C:\Windows\System32\_dwmfake\rundll32.exe
+  To 
+  C:\Windows\System32\_dwmfake\dwm.exe
+  
+  Take ownership of 
+  C:\Windows\System32\_dwm\dwm.exe
+  And
+  C:\Windows\System32\_dwmfake\dwm.exe
+  
+5 Open Old New Explorer
+  Set only
+  -Use command bar instead of Ribbion
+  -Hide caption text in File Explorer windows
+  -Hide caption icon in File Explorer windows 
+  -Hide Up (go to parent folder) button
+  
+6 Run Disable DWM to test
+  Run Enable DWM to test
+
+------------------------------
+
+For some programs to work and open use compatibility tab
+Run this program in compatibility mode for 
+Windows 7 
+
+------------------------------

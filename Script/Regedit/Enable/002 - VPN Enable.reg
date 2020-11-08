@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+; Désactiver les services VPN
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAcd]
+"Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasAgileVpn]
+"Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasPppoe]
+"Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Rasl2tp]
+"Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasSstp]
+"Start"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\tunnel]
+"Start"=dword:00000003

@@ -1,0 +1,1 @@
+-novid -tickrate 128 -refresh 240 -high -full -d3d9ex -nojoy +exec autoexec

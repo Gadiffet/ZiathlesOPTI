@@ -1,0 +1,1 @@
++fps_max 0 -novid -cl_forcepreload 1 -preload -refresh 240 -forcenovsync -fullscreen -high
